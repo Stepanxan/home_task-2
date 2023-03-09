@@ -9,7 +9,7 @@ sizes = [num_positive, num_negative, num_neutral]
 
 plt.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90)
 plt.legend(title = "Review: ")
-plt.savefig("./chart/mygraph.png")
+plt.savefig("./graphs/mygraph.png")
 
 
 
